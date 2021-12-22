@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Warhammer 40k Crusade System Grot Helper</title>
+      <link href="main.css" rel="stylesheet" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+      <script>
+        function backgroundChange() {
+          document.getElementById("p2").style.color = "blue";
+        }
+      </script>
+    </head>
+
+    <body id = "test">
+      <div id="header">
+        <h1>Warhammer 40k Crusade System Grot Helper</h1>
+      </div>
+
+      <div id="navbar">
+
+      </div>
+      <div id="container">
+        
+        <div id="main">
+          <form>
+            <label for="Cname">Crusade Name: </label><br>
+            <input type="text" id="Cname" name="Cname" value="Indomitus"><br>
+            <p>Faction</p>
+            <select id = factionSelect >
+              <option value="Adeptus Astarties">Adeptus Astarties</option>
+              <option value="">ComingSoon</option>
+            </select>
+            
+          </form>
+          <button type="button"
+          onclick="document.body.style.backgroundImage = url('./images/imperialGuardBG.jpg')">
+          Click Me!</button>
+         
+        </div>
+      </div>
+      <div id="footer">
+
+      </div>
+    </body>
+  </html>
